@@ -5,7 +5,6 @@
 
 Uptime Checker is a simple tool to monitor the availability and SSL certificate status of specified URLs. This project provides a web interface to add URLs for monitoring and an API to check their status.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/sioaeko/Uptime-monitor)
 
 ## Features
 
