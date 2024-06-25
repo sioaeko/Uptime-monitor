@@ -27,8 +27,8 @@ For example, it can be easily deployed in environments such as Ubuntu, Linux Min
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Uptime-Checker.git
-   cd Uptime-Checker
+   git clone https://github.com/sioaeko/Uptime-monitor.git
+   cd Uptime-monitor
    ```
 
 2. Install dependencies:
@@ -49,90 +49,12 @@ For example, it can be easily deployed in environments such as Ubuntu, Linux Min
 
 2. Open your browser and navigate to `http://localhost:3000`.
 
-#### Deploying to Vercel
 
-1. Sign up or log in to [Vercel](https://vercel.com/).
-2. Import your project and deploy.
-
-## API Endpoints
-
-### `POST /api/add-url`
-
-Add a URL for monitoring.
-
-#### Request
-
-```json
-{
-  "url": "https://example.com"
-}
-```
-
-#### Response
-
-```json
-{
-  "status": "success",
-  "message": "URL added for monitoring"
-}
-```
-
-### `GET /api/check-status`
-
-Check the status of a monitored URL.
-
-#### Request
-
-```json
-{
-  "url": "https://example.com"
-}
-```
-
-#### Response
-
-```json
-{
-  "status": "up",
-  "responseTime": 123,
-  "ssl": {
-    "valid": true,
-    "expiresAt": "2024-12-31T23:59:59.000Z"
-  },
-  "lastChecked": "2024-06-25T12:34:56.000Z",
-  "downHistory": []
-}
-```
-
-### `POST /api/remove-url`
-
-Remove a URL from monitoring.
-
-#### Request
-
-```json
-{
-  "url": "https://example.com"
-}
-```
-
-#### Response
-
-```json
-{
-  "status": "success",
-  "message": "URL removed from monitoring"
-}
-```
 
 ## Project Structure
 
 ```
-Uptime-Checker/
-├── api/
-│   ├── add-url.js
-│   ├── check-status.js
-│   └── remove-url.js
+Uptime-monitor/
 ├── public/
 │   ├── index.html
 │   ├── script.js
