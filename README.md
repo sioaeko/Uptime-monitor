@@ -10,12 +10,11 @@ This version is suitable for typical server deployments
 For example, it can be easily deployed in environments such as Ubuntu, Linux Mint, Debian, Kalilinux and Mac
 
 
-
 ## Features
 
-- **URL Monitoring**: Add URLs to monitor their availability.
-- **SSL Certificate Check**: Check the SSL certificate status, including validity and expiration date.
-- **Response Time Measurement**: Measure and display the response time of the monitored URLs.
+- 🌐 URL Availability Monitoring
+- 🔒 SSL Certificate Status Checking
+- ⏱️ Response Time Measurement
 
 ## Setup and Installation
 
