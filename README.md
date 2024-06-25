@@ -23,6 +23,14 @@ For example, it can be easily deployed in environments such as Ubuntu, Linux Min
 - Node.js (v12.x or later)
 - npm (v6.x or later)
 
+### Dependencies
+
+This project requires the following npm packages:
+
+- express
+- axios
+- http
+
 ### Installation
 
 1. Clone the repository:
@@ -35,7 +43,7 @@ For example, it can be easily deployed in environments such as Ubuntu, Linux Min
 2. Install dependencies:
 
    ```bash
-   npm install
+   npm install express axios https
    ```
 
 ### Running the Project
